@@ -1,4 +1,4 @@
-<?php include_once '/header.php'; ?>
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
 <?php
 $error = '';
 if ( isset( $_POST['login'] ) ) {
