@@ -2,11 +2,11 @@
 session_start();
 ob_start();
 // set a time limit in seconds
-$timelimit = 15;
+$timelimit = 1800;
 // get the current time
 $now = time();
 // where to redirect if rejected
-$redirect = 'http://login.dev/login.php';
+$redirect = 'http://phprevamp/login.php';
 
 // if session variable not set, redirect to login page
 if (!isset($_SESSION['authenticated'])) {

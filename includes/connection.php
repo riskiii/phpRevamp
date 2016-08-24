@@ -1,8 +1,8 @@
 <?php
 
 $dbhost = "localhost";
-$dbname = "samir";
-$dbuser = "samir";
+$dbname = "phpRevamp";
+$dbuser = "phpRevamp";
 $dbpswd = "gautruut!!";
 
 try {

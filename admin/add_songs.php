@@ -1,7 +1,8 @@
+<?php include_once '../header.php'; ?>
 <?php require_once '../includes/session_timeout.php'; ?>
 <?php include '../includes/connection.php';
 
-$q = $db->prepare( 'SELECT album_id, album_name FROM table_albums ORDER BY album_name' );
+$q = $db->prepare( 'SELECT album_id, album_name FROM albums ORDER BY album_name' );
 $q->bindParam( ':album_id',   $album_id );
 $q->bindParam( ':album_name', $album_name );
 $q->execute();
@@ -16,11 +17,13 @@ $q->execute();
 
 <body>
 <?php include '../includes/menu.php'; ?>
-<h1>Add Tracts</h1>
+<h1>Add Songs</h1>
 
 <form method="post">
    Tracks Name:<br>
-   <input type="text" name="tracks_name" value="<?php $tracks_name ?>"><br>
+   <input type="text" name="song_name" value="<?php $song_name ?>"><br>
+   <input type="time" name="song_length" value="<?php $song_length ?>"><br>
+   <input type="file" name="song_mp3" id="song_mp3"><br>
    <select  name="album_id" id="album_id">
       <option value"" >Select</option>
       <?php while ( $row = $q->fetch() ) { ?>
@@ -38,17 +41,21 @@ $q->execute();
 // Only process the form if $_POST isn't empty
 if ( ! empty( $_POST ) ) {
    var_dump( $_POST ) ;
-   $stmt = $db->prepare( "INSERT INTO table_tracks ( tracks_name,  tracks_id,  album_id ) 
-                          VALUE                    (:tracks_name, :tracks_id, :album_id)" );
-   $stmt->bindParam( ':tracks_id',   $tracks_id );
-   $stmt->bindParam( ':tracks_name', $tracks_name );
+   $stmt = $db->prepare( "INSERT INTO songs ( song_name,  song_id,  album_id ) 
+                          VALUE             (:song_name, :song_id, :album_id)" );
+   $stmt->bindParam( ':song_id', $song_id );
+   $stmt->bindParam( ':song_name', $song_name );
+   $stmt->bindParam( ':song_length', $song_length );
+   $stmt->bindParam( ':song_mp3', $song_mp3 );
    $stmt->bindParam( ':album_id',    $album_id );
 
    // insert one row
-   $album_id = $_POST["album_id"];
-   $tracks_name = $_POST["tracks_name"];
+   $album_id  = $_POST["album_id"];
+   $song_name = $_POST["song_name"];
    $stmt->execute();
 }
 ?>
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
 </body>
 </html>
+

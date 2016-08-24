@@ -4,7 +4,7 @@ if (isset($_POST['register'])) {
     $password = trim($_POST['pwd']);
     $retyped  = trim($_POST['conf_pwd']);
     define('__ROOT__', dirname(dirname(__FILE__)));
-    $userfile = '/Users/riskiii/Sites/encrypted.csv';
+    $userfile = '/Users/dsmith/Sites/encrypted.csv';
     require_once __ROOT__.'/includes/register_user_csv.php';
 }
 ?>
@@ -58,5 +58,7 @@ if (isset($result) || isset($errors)) {
         <input type="submit" name="register" value="Register">
     </p>
 </form>
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
 </body>
 </html>
+

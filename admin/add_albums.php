@@ -1,3 +1,4 @@
+<?php include_once '../header.php'; ?>
 <?php require_once '../includes/session_timeout.php'; ?>
 <?php include '../includes/connection.php'; ?>
 <?php
@@ -6,14 +7,6 @@
    $q->bindParam(':artists_name', $artist_name);
    $q->execute();
 ?>
-<!DOCTYPE HTML>
-<html>
-<head>
-   <meta charset="utf-8">
-   <title><?php echo basename( __FILE__ );?></title>
-</head>
-
-<body>
 
 <?php include '../includes/menu.php'; global $album_name;?>
 
@@ -52,5 +45,7 @@ if ( ! empty( $_POST ) ) {
    $stmt->execute();
 }
 ?>
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
 </body>
 </html>
+

@@ -1,3 +1,4 @@
+<?php include_once '../header.php'; ?>
 <?php require_once '../includes/session_timeout.php'; ?>
 <?php include '../includes/connection.php';
 // Only process the form if $_POST isn't empty
@@ -27,6 +28,8 @@ if ( ! empty( $_POST ) ) {
    <input type="submit" value="Submit now" />
 </form>
 
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
 <?php include '../includes/logout.php'; ?>
 </body>
 </html>
+

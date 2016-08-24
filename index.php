@@ -35,6 +35,7 @@ include_once "header.php";
 </div>
 <footer class="foot">
 
+   <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
 
 </footer>
 
