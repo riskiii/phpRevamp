@@ -1,0 +1,344 @@
+<
+style >
+header {
+
+   top: 32px;
+   bottom: 25px;
+}
+
+.header-container {
+   position: absolute;
+   top: 0;
+   background: url(images/z.jpg) no-repeat;
+   background-size: 100%;
+   width: 100%;
+   z-index: 2000;
+   height: 280px;
+   right: 0;
+}
+
+h1 {
+   font-size: 55px;
+   text-align: center;
+   font-family: Cursive;
+}
+
+.pe {
+   color: #6a6869;
+}
+
+.nt {
+   color: #eb4a9b;
+}
+
+.at {
+   color: #21aeee;
+}
+
+.on {
+   color: #0f9f24;
+}
+
+.ix {
+   color: #fed875;
+}
+
+a {
+   text-decoration: underline;
+   color: #fff;
+}
+
+.nav {
+   padding: 0px 0;
+}
+
+.nav ul {
+   list-style: none;
+
+   text-align: center;
+   padding: 0;
+   margin: 0;
+}
+
+.nav li {
+   font-family: georgia;
+   font-size: 1.2em;
+   line-height: 40px;
+   height: 40px;
+
+   padding: 5px;
+   display: tabel;
+}
+
+.nav a {
+   font-family: Cursive;
+   font-size: 1em;
+   text-decoration: none;
+   color: white;
+   display: block;
+   transition: .3s
+   padding: 1px;
+   border-bottom: solid gold 5px;
+   border-top: solid gold 5px;
+   background-color: #21aeee;
+}
+
+.nav a:hover {
+   color: white;
+   background-color: #eb4a9b;
+   border-bottom: solid #eb4a9b 5px;
+   border-top: solid #eb4a9b 5px;
+}
+
+@media screen and (min-width: 600px) {
+   .nav li {
+      width: 120px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      font-size: 1.4em;
+   }
+
+   .nav li {
+      display: inline-block;
+      margin-right: -4px;
+   }
+}
+
+/*html {*/
+/*background: url(tcbgi1.jpg) no-repeat center center fixed;*/
+/*-webkit-background-size: cover;*/
+/*-moz-background-size: cover;*/
+/*-o-background-size: cover;*/
+/*background-size: cover;*/
+/*}*/
+
+.body {
+   padding: 220px;
+
+}
+
+/*
+.bg{
+ background: url(a.jpg)  center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+.about {
+   font-family: Cursive;
+   padding-top: 260px;
+   text-align: center;
+   color: #21aeee;
+   margin-right: 0;
+   font-size: 2em;
+}
+
+.p1 {
+   font-family: none;
+   font-size: .7em;
+   color: black;
+   text-align: left;
+   margin-right: 6px;
+   margin-left: 6px;
+
+}
+
+.b1 {
+   font-family: Cursive;
+   font-size: 1em;
+   color: #21aeee;
+   text-align: left;
+   margin-right: 6px;
+   margin-left: 6px;
+
+}
+
+.b2 {
+   font-family: Cursive;
+   font-size: 1em;
+   color: #0f9f24;
+   text-align: left;
+   margin-right: 6px;
+   margin-left: 6px;
+
+}
+
+.b3 {
+   font-family: Cursive;
+   font-size: 1em;
+   color: #6a6869;
+   text-align: left;
+   margin-right: 6px;
+   margin-left: 6px;
+
+}
+
+.b4 {
+   font-family: Cursive;
+   font-size: 1em;
+   color: #fed875;
+   text-align: left;
+   margin-right: 6px;
+   margin-left: 6px;
+
+}
+
+.b5 {
+   font-family: Cursive;
+   font-size: 1em;
+   color: #eb4a9b;
+   text-align: left;
+   margin-right: 6px;
+   margin-left: 6px;
+
+}
+
+.biom {
+   font-family: none;
+   font-size: .6em;
+   color: black;
+   text-align: left;
+   margin-right: 6px;
+   margin-left: 6px;
+}
+
+.fv {
+   font-family: Cursive;
+   text-align: center;
+   color: #21aeee;
+   margin: 0px auto;
+   font-size: 2em;
+}
+
+.vidw {
+   text-align: center;
+   margin: 0px auto;
+}
+
+.vid {
+   display: block;
+   margin: 0 auto;
+}
+
+.onealb {
+   float: left;
+   margin-left: 5px;
+}
+
+.alb1a {
+   margin-bottom: 3px;
+}
+
+.twoalb {
+   float: right;
+   margin-right: 5px;
+}
+
+.albpic {
+   text-align: right;
+   margin-right: 15px;
+}
+
+.threealb {
+   float: left;
+   margin-left: 5px;
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+
+.fouralb {
+   float: right;
+   margin-right: 5px;
+   margin-bottom: 25px;
+}
+
+.contactpage {
+   padding-top: 230px;
+   color: #b2bb1c;
+   margin-right: 0;
+   font-size: 2em;
+
+}
+
+.cmform {
+   padding-left: 350px;
+   padding-top: 100px;
+   color: white;
+}
+
+.ulili {
+   list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+
+   .about {
+      padding-top: 440px;
+   }
+
+   .vid {
+      display: block;
+      margin: 0 auto;
+      width: 460px;
+   }
+
+   .twoalb {
+      float: left;
+      margin-left: 5px;
+      margin-top: 15px;
+      margin-bottom: 25px;
+   }
+
+   .fouralb {
+      float: left;
+      margin-left: 5px;
+      margin-top: 15px;
+      margin-bottom: 25px;
+   }
+
+   .albpic {
+      text-align: left;
+      margin-right: 15px;
+   }
+
+}
+
+@media screen and (max-width: 736px) {
+
+   .about {
+      padding-top: 440px;
+   }
+
+   .vid {
+      display: block;
+      margin: 0 auto;
+      width: 400px;
+   }
+
+   .twoalb {
+      float: left;
+      margin-left: 5px;
+      margin-top: 15px;
+      margin-bottom: 25px;
+   }
+
+   .fouralb {
+      float: left;
+      margin-left: 5px;
+      margin-top: 15px;
+      margin-bottom: 25px;
+   }
+
+   .albpic {
+      text-align: left;
+      margin-right: 15px;
+   }
+
+}
+
+<
+/
+style >

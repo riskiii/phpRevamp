@@ -1,0 +1,19 @@
+{
+	"name": "dgs/phpRevamp",
+	"description": "Student revamping previous students discography program",
+	"type": "php mysql",
+	"authors": [
+		{
+			"name": "Danny G Smith",
+			"email": "dgs@campfirepixels.com",
+			"homepage": "https://campfirepixels.com"
+		}
+	],
+	"config": {
+		"vendor-dir": "assets/composer"
+	},
+	"require": {
+		"composer/installers": "^1.0",
+		"tgmpa/tgm-plugin-activation": "^2.5.2"
+	}
+}
