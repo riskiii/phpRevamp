@@ -1,51 +1,67 @@
-<?php include_once '../header.php'; ?>
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
 <?php require_once '../includes/session_timeout.php'; ?>
 <?php include '../includes/connection.php'; ?>
 <?php
-   $q = $db->prepare('SELECT artist_id, `artist_name` FROM artists ORDER BY `artist_name`');
-   $q->bindParam(':artist_id',    $artist_id);
-   $q->bindParam(':artists_name', $artist_name);
-   $q->execute();
+$q = $db->prepare( 'SELECT artist_id, `artist_name` FROM artists ORDER BY `artist_name`' );
+$q->bindParam( ':artist_id', $artist_id );
+$q->bindParam( ':artists_name', $artist_name );
+$q->execute();
 ?>
+<div class="one-third">
+   <?php include '../includes/menu.php';
+   global $album_name; ?>
+</div>
+<div class="two-thirds last">
+   <h1>Add Album</h1>
+   <!--   http://www.w3schools.com/php/php_file_upload.asp-->
+   <form action="upload.php" method="post" enctype="multipart/form-data">
+      <div class="form-group">
+         <label for="album_name" class="">Album Artist</label>
+         <select>
+            <option name="artist_id" id="artist_id">Select</option>
+            <?php while ( $row = $q->fetch() ) { ?>
+               <option value="<?php echo $row->artist_id;
+               $artist_id = $row->artist_id; ?>"><?php echo $row->artist_name; ?></option>
+            <?php } ?>
+         </select>
+      </div>
+      <div class="form-group">
+         <label for="album_name" class="">Album Name</label>
+         <input type="text" name="album_name" value="<?php $album_name; ?>">
+      </div>
+      <div class="form-group">
+         <label for="album_release" class="">Album Release Date</label>
+         <input type="date" name="album_release" value="<?php $album_release; ?>">
+      </div>
+      <div class="form-group">
+         <label for="album_image" class="">Album Image</label>
+         <input type="file" name="album_image" id="album_image">
+         <input type="submit" value="Upload Image" name="submit">
+      </div>
 
-<?php include '../includes/menu.php'; global $album_name;?>
+      <div class="form-group">
+         <input type="submit" value="Submit now"/>
+      </div>
+   </form>
+   <?php
 
-<h1>Add Album</h1>
-<form method="post">
-   Album Name:<br>
-   <input type="text" name="album_name" value="<?php $album_name; ?>"><br>
-   Album Image:<br>
-   <input type="date" name="album_releae" value="<?php $album_release; ?>"><br>
-   Album Image:<br>
-   <input type="text" name="album_image" value="<?php $album_image; ?>"><br>
+   // Only process the form if $_POST isn't empty
+   if ( ! empty( $_POST ) ) {
+      $stmt = $db->prepare( "INSERT INTO albums (album_name, artist_id, album_release, album_image) VALUE (:album_name, :artist_id, :album_release, :album_image)" );
+      $stmt->bindParam( ':album_name', $album_name );
+      $stmt->bindParam( ':artist_id', $artist_id );
+      $stmt->bindParam( ':album_release', $album_release );
+      $stmt->bindParam( ':album_image', $album_image );
 
-   <select>
-      <option name="artist_id" id="artist_id">Select</option>
-      <?php while ($row = $q->fetch()) { ?>
-         <option  value="<?php echo $row->artist_id;$artist_id = $row->artist_id; ?>"><?php echo $row->artists_name; ?></option>
-      <?php } ?>
-   </select>
-
-   <input type="submit" value="Submit now" />
-</form>
-<?php include '../includes/logout.php';
-
-// Only process the form if $_POST isn't empty
-if ( ! empty( $_POST ) ) {
-   $stmt = $db->prepare("INSERT INTO albums (album_name, artist_id, album_release, album_image) VALUE (:album_name, :artist_id, :album_release, :album_image)");
-   $stmt->bindParam(':album_name',    $album_name);
-   $stmt->bindParam(':artist_id',     $artist_id);
-   $stmt->bindParam(':album_release', $album_release);
-   $stmt->bindParam(':album_image',   $album_image);
-
-   // insert one row
-   $album_name    = $_POST["album_name"];
-   $album_release = $_POST["album_release"];
-   $album_image   = $_POST["album_image"];
-   $stmt->execute();
-}
-?>
+      // insert one row
+      $album_name    = $_POST["album_name"];
+      $album_release = $_POST["album_release"];
+      $album_image   = $_POST["album_image"];
+      $stmt->execute();
+   }
+   ?>
+   <?php include '../includes/logout.php'; ?>
+</div> <!-- .two-third -->
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
-</body>
-</html>
+
 

@@ -1,12 +1,7 @@
-<?php
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
 
-include_once "header.php";
-
-?>
-
-<div class="bg">
-   <div class="about"><h2> Contact </h2></div>
-
+<div class="about">
+   <h2> Contact </h2>
 
    <div class="container">
       <div class="row header">
@@ -52,9 +47,7 @@ include_once "header.php";
       </div>
    </div>
 
-
 </div>
 
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
 
-</body>
-</html>

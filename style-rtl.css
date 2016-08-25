@@ -440,3 +440,246 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
     clear: both;
   }
 }
+.genesis-nav-menu > .first > a {
+  padding-right: 0;
+}
+
+.genesis-nav-menu > .last > a {
+  padding-left: 0;
+}
+
+.nav-sidebar {
+  display: block;
+  position: relative;
+  text-align: right;
+}
+
+.nav-sidebar li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.nav-sidebar a {
+  color: #fff;
+  display: inline-block;
+  font-family: Cursive;
+  font-size: 22px;
+  letter-spacing: 1px;
+  padding: 15px 20px;
+  position: relative;
+  width: 100%;
+  text-decoration: none;
+  border-bottom: solid gold 5px;
+  border-top: solid gold 5px;
+  background-color: #21aeee;
+}
+
+.nav-sidebar a:hover,
+.nav-sidebar a:focus {
+  color: #8f8f8f;
+}
+
+select, input[type="color" i][list] {
+  background-color: #f8f8f8;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #a6a6a6;
+}
+
+option {
+  font-weight: normal;
+  display: block;
+  white-space: pre;
+  min-height: 2em;
+  padding: 2px 4px 2px;
+}
+
+.genesis-nav-menu .sub-menu a:hover,
+.genesis-nav-menu .sub-menu a:focus {
+  outline: #a1a1a1 dotted thin;
+}
+
+.genesis-nav-menu .sub-menu .current-menu-item > a {
+  color: #8f8f8f;
+}
+
+.genesis-nav-menu > .menu-item > a {
+  text-transform: uppercase;
+}
+@media screen and (min-width: 1023px) {
+  .genesis-nav-menu > .menu-item > a {
+    border-bottom: 0;
+  }
+}
+
+.genesis-nav-menu .sub-menu {
+  background-color: #121212;
+  clear: both;
+  display: none;
+  opacity: 1;
+  position: static;
+}
+@media screen and (min-width: 1023px) {
+  .genesis-nav-menu .sub-menu {
+    display: block;
+    right: -9999px;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    width: 200px;
+    z-index: 99;
+  }
+}
+
+.genesis-nav-menu .menu-item:hover > .sub-menu,
+.genesis-nav-menu .menu-item-hover:hover > .sub-menu {
+  right: auto;
+  opacity: 1;
+}
+
+.genesis-nav-menu .sub-menu a {
+  border: 0;
+}
+@media screen and (min-width: 1023px) {
+  .genesis-nav-menu .sub-menu a {
+    letter-spacing: 0;
+    width: 200px;
+  }
+}
+
+.genesis-nav-menu .sub-menu .sub-menu a {
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 1023px) {
+  .genesis-nav-menu .sub-menu .sub-menu {
+    margin: -54px 199px 0 0;
+  }
+
+  .genesis-nav-menu .menu-item-hover,
+  .genesis-nav-menu .menu-item:hover {
+    position: static;
+  }
+}
+.nav-primary,
+.nav-footer {
+  display: none;
+  position: relative;
+}
+@media screen and (min-width: 1023px) {
+  .nav-primary,
+  .nav-footer {
+    display: inline-block;
+  }
+}
+
+.menu-toggle,
+.footer-menu-toggle {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 9px;
+  position: relative;
+  text-transform: uppercase;
+  visibility: visible;
+}
+@media screen and (min-width: 1023px) {
+  .menu-toggle,
+  .footer-menu-toggle {
+    display: block;
+    visibility: hidden;
+  }
+}
+
+.sub-menu-toggle {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+  padding: 16px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  visibility: visible;
+}
+@media screen and (min-width: 1023px) {
+  .sub-menu-toggle {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.menu-toggle:before,
+.footer-menu-toggle:before {
+  content: "\2261";
+  display: inline-block;
+  padding-left: 8px;
+}
+
+.menu-toggle.menu-toggle-activated:before,
+.footer-menu-toggle.menu-toggle-activated:before {
+  content: "x";
+}
+
+.sub-menu-toggle:before {
+  content: "+";
+}
+
+.sub-menu-toggle.menu-toggle-activated:before {
+  content: "-";
+}
+
+@media screen and (min-width: 1023px) {
+  button.menu-toggle,
+  button.sub-menu-toggle,
+  button.footer-menu-toggle {
+    display: none;
+  }
+}
+.site-header .sub-menu {
+  border-top: 1px solid #ebebeb;
+}
+
+.site-header .sub-menu .sub-menu {
+  margin-top: -53px;
+}
+.nav-primary,
+.nav-footer {
+  background-color: #121212;
+  text-align: center;
+  width: 100%;
+}
+
+.nav-primary a:hover,
+.nav-primary .current-menu-item > a,
+.nav-footer a:hover,
+.nav-footer .current-menu-item > a {
+  color: #8f8f8f;
+}
+
+.nav-primary .sub-menu a:hover {
+  color: #8f8f8f;
+}
+.menu .menu-item:focus {
+  position: static;
+}
+
+.menu .menu-item > a:focus + ul.sub-menu,
+.menu .menu-item.wpacc-hover > ul.sub-menu {
+  right: auto;
+  opacity: 1;
+}

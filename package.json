@@ -24,7 +24,7 @@
     "grunt-wp-i18n": "~0.4.9",
     "matchdep": "^0.3.0"
   },
-   "dependencies": {
-      "livereload-js": "^2.2.2"
+  "dependencies": {
+    "livereload-js": "^2.2.2"
   }
 }

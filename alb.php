@@ -1,99 +1,94 @@
-<?php
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
 
-include_once "header.php";
+<div class="about"><h2> Albums </h2></div>
 
-?>
+<div class="onealb">
 
-<div class="bg">
-   <div class="about"><h2> Albums </h2></div>
+   <h2> PTX, Vol. III </h2>
+   <h3> Released: Sep. 23, 2014 </h3>
+   <img class="alb1a" src="images/ptxv3.jpg" alt="alb1art">
+   <table>
+      <tr>
+         <td>No.1</td>
+         <td>
+            <audio id="player31" src="music/pro.mp3"></audio>
 
-   <div class="onealb">
+            <button onclick="document.getElementById('player').play()">Play</button>
+            <button onclick="document.getElementById('player').pause()">Pause</button>
+            Problem
+         </td>
+         <td>Length - 2:29</td>
+      </tr>
+      <tr>
+         <td>No.2</td>
+         <td>
+            <audio id="player1" src="music/omwh.mp3"></audio>
 
-      <h2> PTX, Vol. III </h2>
-      <h3> Released: Sep. 23, 2014 </h3>
-      <img class="alb1a" src="images/ptxv3.jpg" alt="alb1art">
-      <table>
-         <tr>
-            <td>No.1</td>
-            <td>
-               <audio id="player31" src="music/pro.mp3"></audio>
+            <button onclick="document.getElementById('player1').play()">Play</button>
+            <button onclick="document.getElementById('player1').pause()">Pause</button>
+            On My Way Home
+         </td>
+         <td>Length - 3:15</td>
+      </tr>
+      <tr>
+         <td>No.3</td>
+         <td>
+            <audio id="player2" src="music/lll.mp3"></audio>
 
-               <button onclick="document.getElementById('player').play()">Play</button>
-               <button onclick="document.getElementById('player').pause()">Pause</button>
-               Problem
-            </td>
-            <td>Length - 2:29</td>
-         </tr>
-         <tr>
-            <td>No.2</td>
-            <td>
-               <audio id="player1" src="music/omwh.mp3"></audio>
+            <button onclick="document.getElementById('player2').play()">Play</button>
+            <button onclick="document.getElementById('player2').pause()">Pause</button>
+            La La Latch
+         </td>
+         <td>Length - 3:42</td>
+      </tr>
+      <tr>
+         <td>No.4</td>
+         <td>
+            <audio id="player3" src="music/rb.mp3"></audio>
 
-               <button onclick="document.getElementById('player1').play()">Play</button>
-               <button onclick="document.getElementById('player1').pause()">Pause</button>
-               On My Way Home
-            </td>
-            <td>Length - 3:15</td>
-         </tr>
-         <tr>
-            <td>No.3</td>
-            <td>
-               <audio id="player2" src="music/lll.mp3"></audio>
+            <button onclick="document.getElementById('player3').play()">Play</button>
+            <button onclick="document.getElementById('player3').pause()">Pause</button>
+            Rather Be
+         </td>
+         <td>Length - 3:33</td>
+      </tr>
+      <tr>
+         <td>No.5</td>
+         <td>
+            <audio id="player4" src="music/se.mp3"></audio>
 
-               <button onclick="document.getElementById('player2').play()">Play</button>
-               <button onclick="document.getElementById('player2').pause()">Pause</button>
-               La La Latch
-            </td>
-            <td>Length - 3:42</td>
-         </tr>
-         <tr>
-            <td>No.4</td>
-            <td>
-               <audio id="player3" src="music/rb.mp3"></audio>
+            <button onclick="document.getElementById('player4').play()">Play</button>
+            <button onclick="document.getElementById('player4').pause()">Pause</button>
+            See through
+         </td>
+         <td>Length - 3:19</td>
+      </tr>
+      <tr>
+         <td>No.6</td>
+         <td>
+            <audio id="player5" src="music/pap.mp3"></audio>
 
-               <button onclick="document.getElementById('player3').play()">Play</button>
-               <button onclick="document.getElementById('player3').pause()">Pause</button>
-               Rather Be
-            </td>
-            <td>Length - 3:33</td>
-         </tr>
-         <tr>
-            <td>No.5</td>
-            <td>
-               <audio id="player4" src="music/se.mp3"></audio>
+            <button onclick="document.getElementById('player5').play()">Play</button>
+            <button onclick="document.getElementById('player5').pause()">Pause</button>
+            Papaoutai (Feat. Lindsey Stirling)
+         </td>
+         <td>Length - 3:33</td>
+      </tr>
+      <tr>
+         <td>No.7</td>
+         <td>
+            <audio id="player6" src="music/sb.mp3"></audio>
 
-               <button onclick="document.getElementById('player4').play()">Play</button>
-               <button onclick="document.getElementById('player4').pause()">Pause</button>
-               See through
-            </td>
-            <td>Length - 3:19</td>
-         </tr>
-         <tr>
-            <td>No.6</td>
-            <td>
-               <audio id="player5" src="music/pap.mp3"></audio>
+            <button onclick="document.getElementById('player6').play()">Play</button>
+            <button onclick="document.getElementById('player6').pause()">Pause</button>
+            Standing By
+         </td>
+         <td>Length - 4:14</td>
+      </tr>
 
-               <button onclick="document.getElementById('player5').play()">Play</button>
-               <button onclick="document.getElementById('player5').pause()">Pause</button>
-               Papaoutai (Feat. Lindsey Stirling)
-            </td>
-            <td>Length - 3:33</td>
-         </tr>
-         <tr>
-            <td>No.7</td>
-            <td>
-               <audio id="player6" src="music/sb.mp3"></audio>
-
-               <button onclick="document.getElementById('player6').play()">Play</button>
-               <button onclick="document.getElementById('player6').pause()">Pause</button>
-               Standing By
-            </td>
-            <td>Length - 4:14</td>
-         </tr>
-
-      </table>
-   </div>
+   </table>
 </div>
+
 
 <div class="twoalb">
 
@@ -412,6 +407,4 @@ include_once "header.php";
    </table>
 </div>
 
-
-</body>
-</html>
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>

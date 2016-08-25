@@ -1,4 +1,4 @@
-<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>.
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
 <?php
 $error = '';
 if ( isset( $_POST['login'] ) ) {
@@ -6,7 +6,7 @@ if ( isset( $_POST['login'] ) ) {
    $username = trim( $_POST['username'] );
    $password = trim( $_POST['pwd'] );
    // location of usernames and passwords
-   $userlist = '/Users/dsmith/Sites/encrypted.csv';
+   $userlist = '/Users/riskiii/Sites/encrypted.csv';
    // location to redirect on success
    $redirect = 'admin/menu.php';
    require_once 'includes/authenticate.php';

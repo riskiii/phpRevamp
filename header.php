@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>PTX</title>
     <link rel="stylesheet" type="text/css" href="/ptx.css">
-    <!--    <link rel="stylesheet" type="text/css" href="css/normalize.css">-->
+<!--    <link rel="stylesheet" type="text/css" href="css/normalize.css">-->
     <link rel="stylesheet" type="text/css" href="/style.css">
     <script src="/audioplayerengine/jquery.js"></script>
     <script src="/audioplayerengine/amazingaudioplayer.js"></script>
@@ -14,8 +14,8 @@
 </head>
 <body>
 
-<header>
-    <div class="header-container">
+<header class="site-header">
+    <div class="header-container wrap">
 
         <div id="amazingaudioplayer-1"
              style="display:block;position:relative;width:300px;height:auto;margin:0px auto 0px;">
@@ -29,12 +29,12 @@
                     mp3 player</a></div>
         </div>
 
-        <h1><span class="pe">PE</span><span class="nt">NT</span><span class="at">AT</span><span
+        <h1 class="title-area"><span class="pe">PE</span><span class="nt">NT</span><span class="at">AT</span><span
                 class="on">ON</span><span
                 class="ix">IX</span></h1>
 
 
-        <div class="nav">
+        <div class="nav nav-header">
             <ul>
                 <li><a href="/index.php">Home</a></li>
                 <li><a href="/bio.php">Bio</a></li>
@@ -46,3 +46,8 @@
         </div>
     </div>
 </header>
+
+<?php include_once "header.php"; ?>
+
+<div class="site-inner">
+    <div class="bg wrap">
