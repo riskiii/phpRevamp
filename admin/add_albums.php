@@ -1,5 +1,4 @@
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
-<?php //include_once $_SERVER['DOCUMENT_ROOT'] . '/admin/server/php/index.php'; ?>
 <?php require_once '../includes/session_timeout.php'; ?>
 <?php include '../includes/connection.php'; ?>
 <?php

@@ -9,39 +9,38 @@
          <h3>Fill out the form below to learn more!</h3>
       </div>
       <div class="row body">
-         <form action="#">
+         <form  method="post" action="mail.php">
             <ul>
-
-               <li>
+               <li class="form-group">
                   <p class="left">
-                     <label>first name</label>
+                     <label for="first_name" class="">First Name</label>
                      <input type="text" name="first_name" placeholder="John"/>
                   </p>
                   <p class="pull-right">
-                     <label>last name</label>
+                     <label for="last_name" class="">Last Name</label>
                      <input type="text" name="last_name" placeholder="Smith"/>
                   </p>
                </li>
-
-               <li>
+               <li class="form-group">
                   <p>
-                     <label>email <span class="req">*</span></label>
+                     <label  for="email" class="">Email <span class="req">*</span></label>
                      <input type="email" name="email" placeholder="john.smith@gmail.com"/>
                   </p>
                </li>
-               <li>
+               <li class="form-group">
                   <div class="divider"></div>
                </li>
-               <li>
-                  <label>comments</label>
-                  <textarea cols="46" rows="3" name="comments"></textarea>
+               <li class="form-group">
+                  <label  for="comments" class="">Comments</label>
+                  <textarea cols="46" rows="5" name="comments"></textarea>
                </li>
-
-               <li>
-                  <input class="btn btn-submit" type="submit" value="Send"/>
-
+               <li class="form-group">
+                  <label>*What is 2+2? (Anti-spam)</label>
+                  <input name="human" placeholder="Type Here">
                </li>
-
+               <li class="form-group">
+                  <input id="submit" class="btn btn-submit" name="submit" type="submit" value="Submit">
+               </li>
             </ul>
          </form>
       </div>

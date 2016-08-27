@@ -1,4 +1,3 @@
-<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
 <?php
 $error = '';
 if ( isset( $_POST['login'] ) ) {
@@ -12,6 +11,8 @@ if ( isset( $_POST['login'] ) ) {
    require_once 'includes/authenticate.php';
 }
 ?>
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
+
 <div class="bg">
 
    <div class="about">
