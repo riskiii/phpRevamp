@@ -1,10 +1,12 @@
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
+<?php //include_once $_SERVER['DOCUMENT_ROOT'] . '/admin/server/php/index.php'; ?>
 <?php require_once '../includes/session_timeout.php'; ?>
 <?php include '../includes/connection.php'; ?>
 <?php
+
 $q = $db->prepare( 'SELECT artist_id, `artist_name` FROM artists ORDER BY `artist_name`' );
 $q->bindParam( ':artist_id', $artist_id );
-$q->bindParam( ':artists_name', $artist_name );
+$q->bindParam( ':artist_name', $artist_name );
 $q->execute();
 ?>
 <div class="one-third">
@@ -14,7 +16,8 @@ $q->execute();
 <div class="two-thirds last">
    <h1>Add Album</h1>
    <!--   http://www.w3schools.com/php/php_file_upload.asp-->
-   <form action="upload.php" method="post" enctype="multipart/form-data">
+   <!--   https://github.com/blueimp/jQuery-File-Upload/wiki/Setup-->
+   <form method="post" enctype="multipart/form-data">
       <div class="form-group">
          <label for="album_name" class="">Album Artist</label>
          <select>
@@ -34,11 +37,9 @@ $q->execute();
          <input type="date" name="album_release" value="<?php $album_release; ?>">
       </div>
       <div class="form-group">
-         <label for="album_image" class="">Album Image</label>
-         <input type="file" name="album_image" id="album_image">
-         <input type="submit" value="Upload Image" name="submit">
+         <!-- https://github.com/blueimp/jQuery-File-Upload-->
+         <?php include 'index.php'; ?>
       </div>
-
       <div class="form-group">
          <input type="submit" value="Submit now"/>
       </div>
@@ -48,15 +49,17 @@ $q->execute();
    // Only process the form if $_POST isn't empty
    if ( ! empty( $_POST ) ) {
       $stmt = $db->prepare( "INSERT INTO albums (album_name, artist_id, album_release, album_image) VALUE (:album_name, :artist_id, :album_release, :album_image)" );
-      $stmt->bindParam( ':album_name', $album_name );
-      $stmt->bindParam( ':artist_id', $artist_id );
+      $stmt->bindParam( ':album_name',    $album_name );
+      $stmt->bindParam( ':artist_id',     $artist_id );
       $stmt->bindParam( ':album_release', $album_release );
-      $stmt->bindParam( ':album_image', $album_image );
+      $stmt->bindParam( ':album_image',   $album_image );
 
       // insert one row
+      // http://php.net/manual/en/features.cookies.php
       $album_name    = $_POST["album_name"];
       $album_release = $_POST["album_release"];
-      $album_image   = $_POST["album_image"];
+      $album_image   = $_COOKIE["dgs_cookie"];
+      unset($_COOKIE["dgs_cookie"]);
       $stmt->execute();
    }
    ?>

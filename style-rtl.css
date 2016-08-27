@@ -84,14 +84,13 @@ div, textarea, input {
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 510px;
-  min-width: 324px;
-  margin: 50px auto 0px;
-  background-color: #fff;
-  border: 1px solid #cfcfcf;
-  border-bottom: 3px solid #ccc;
-}
+/*.container {*/
+  /*max-width: 510px;*/
+  /*min-width: 324px;*/
+  /*margin: 50px auto 0px;*/
+  /*background-color: #fff;*/
+  /*border: 1px solid #cfcfcf;*/
+  /*border-bottom: 3px solid #ccc;*/
 
 .row {
   width: 100%;
@@ -130,11 +129,19 @@ h3 {
   margin: 1em 0 0.4em 0;
 }
 
+#progress {
+  margin-top: 40px;
+}
+
+.margin-right {
+   margin-left: 50px;
+}
+
 .btn {
   font-size: 1.0625em;
   display: inline-block;
   padding: 0.74em 1.5em;
-  margin: 1.5em 0 0;
+  /*margin: 1.5em 0 0;*/
   color: #fff;
   border-width: 0 0 0 0;
   border-bottom: 5px solid;
@@ -472,6 +479,11 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
   border-bottom: solid gold 5px;
   border-top: solid gold 5px;
   background-color: #21aeee;
+}
+
+.bar {
+  height: 18px;
+  background: green;
 }
 
 .nav-sidebar a:hover,

@@ -6,7 +6,7 @@ $timelimit = 1800;
 // get the current time
 $now = time();
 // where to redirect if rejected
-$redirect = 'http://phprevamp/login.php';
+$redirect = 'http://phprevamp.dev/login.php';
 
 // if session variable not set, redirect to login page
 if (!isset($_SESSION['authenticated'])) {

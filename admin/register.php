@@ -1,5 +1,8 @@
 <?php
-include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php';
+include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php';?>
+<!--   <!-- Bootstrap CSS Toolkit styles -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css"><?php
 
 if ( isset( $_POST['register'] ) ) {
    $username = trim( $_POST['username'] );

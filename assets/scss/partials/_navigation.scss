@@ -37,6 +37,11 @@ Site Navigation
 	background-color: #21aeee;
 }
 
+.bar {
+   height: 18px;
+   background: green;
+}
+
 .nav-sidebar a:hover,
 .nav-sidebar a:focus {
 	color: lighten($black, 56);
