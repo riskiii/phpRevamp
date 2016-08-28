@@ -462,9 +462,12 @@ Site Navigation
 
 .nav-sidebar {
   display: block;
-  margin-left: 0;
   position: relative;
   text-align: left;
+}
+
+.nav-sidebar ul {
+  margin-left: 0;
 }
 
 .nav-sidebar li {

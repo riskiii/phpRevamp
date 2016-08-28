@@ -450,9 +450,12 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
 
 .nav-sidebar {
   display: block;
-   margin-right: 0;
   position: relative;
   text-align: right;
+}
+
+.nav-sidebar ul {
+   margin-right: 0;
 }
 
 .nav-sidebar li {
