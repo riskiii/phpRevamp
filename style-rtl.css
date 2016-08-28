@@ -486,7 +486,10 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
 
 .nav-sidebar a:hover,
 .nav-sidebar a:focus {
-   color: #8f8f8f;
+   color: white;
+   background-color: #eb4a9b;
+   border-bottom: solid #eb4a9b 5px;
+   border-top: solid #eb4a9b 5px;
 }
 
 select, input[type="color" i][list] {
