@@ -17,7 +17,7 @@ header {
    //right: 0;
 }
 
-.bg {
+.site-inner .bg {
    margin-bottom: 40px;
 }
 
@@ -54,6 +54,8 @@ a {
 
 h1.title-area {
    margin-top: 75px;
+   font-family: Cursive;
+   text-align: center;
 }
 .two-thirds h1 {
    margin-top: 0;
