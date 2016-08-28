@@ -41,7 +41,7 @@ $q->execute();
          <!-- https://github.com/blueimp/jQuery-File-Upload-->
          <?php include 'index.php'; ?>
       </div>
-      <div class="form-group">
+      <div class="form-group top-spacing">
          <input type="submit" value="Submit now"/>
       </div>
    </form>
@@ -50,7 +50,7 @@ $q->execute();
    <?php
    // Only process the form if $_POST isn't empty
    if ( ! empty( $_POST ) ) {
-      var_dump( $_POST );
+      // var_dump( $_POST );
       $stmt = $db->prepare( "INSERT INTO songs ( album_id,  song_name,  song_length,  song_mp3 ) 
                              VALUE             (:album_id, :song_name, :song_length, :song_mp3 )" );
       $stmt->bindParam( ':album_id',    $album_id );

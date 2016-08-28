@@ -39,7 +39,7 @@ $q->execute();
          <!-- https://github.com/blueimp/jQuery-File-Upload-->
          <?php include 'index.php'; ?>
       </div>
-      <div class="form-group">
+      <div class="form-group top-spacing">
          <input type="submit" value="Submit now"/>
       </div>
    </form>
