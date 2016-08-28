@@ -18,7 +18,7 @@
     <input id="fileupload" type="file" name="files[]" multiple>
   </span>
 
-   <span class="">
+   <span class="progress-text">
       <!-- The global progress bar -->
       <span class="margin-right">Upload progress</span>
       <!-- The list of files uploaded -->
