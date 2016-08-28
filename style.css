@@ -92,12 +92,13 @@ div, textarea, input {
 }
 
 .progress-text {
-  margin-bottom: 30px;
+  margin-bottom: 30px !important;
 }
 
 .container {
   max-width: 510px;
   min-width: 324px;
+  margin-left: 0 !important;
 }
 
 .row {
