@@ -127,7 +127,7 @@ h1.title-area {
 
    .nav li {
       display: inline-block;
-      margin-right: 10px;
+      /*margin-right: 10px;*/
    }
 }
 

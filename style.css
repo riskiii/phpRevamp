@@ -475,7 +475,6 @@ Site Navigation
 .nav-sidebar li {
   list-style: none;
   margin-bottom: 10px;
-  padding: 5px;
 }
 
 .nav-sidebar a {
@@ -484,6 +483,7 @@ Site Navigation
   font-family: Cursive;
   font-size: 22px;
   letter-spacing: 1px;
+  padding: 5px;
   position: relative;
   width: 100%;
   text-decoration: none;
