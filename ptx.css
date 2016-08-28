@@ -53,7 +53,7 @@ a {
 }
 
 h1.title-area {
-   margin-top: 75px;
+   margin: 75px auto 0;
    font-family: Cursive;
    text-align: center;
 }
