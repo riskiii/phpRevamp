@@ -17,6 +17,10 @@ header {
    //right: 0;
 }
 
+.bg {
+   margin-bottom: 40px;
+}
+
 h1 {
    font-size: 55px;
    text-align: center;
