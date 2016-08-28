@@ -1,6 +1,9 @@
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
 <?php require_once '../includes/session_timeout.php'; ?>
 <?php include '../includes/connection.php'; ?>
+<!--   <!-- Bootstrap CSS Toolkit styles -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css">
 
 <div class="one-third">
    <?php include '../includes/menu.php'; ?>
