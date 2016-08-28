@@ -91,6 +91,7 @@ h1.title-area {
 .nav li {
    list-style: none;
    margin-bottom: 10px;
+   padding: 5px;
 }
 
 .nav a {
@@ -99,7 +100,7 @@ h1.title-area {
    font-family: Cursive;
    font-size: 22px;
    letter-spacing: 1px;
-   padding: 15px 20px;
+   /*padding: 15px 20px;*/
    position: relative;
    width: 100%;
    text-decoration: none;
@@ -126,7 +127,7 @@ h1.title-area {
 
    .nav li {
       display: inline-block;
-      margin-right: -4px;
+      margin-right: 10px;
    }
 }
 
