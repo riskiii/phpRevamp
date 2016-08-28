@@ -16,7 +16,7 @@ header {
    //right: 0;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 825px) {
    .header-container {
       height: 280px;
    }
@@ -60,7 +60,7 @@ a {
 
 h1.title-area {
    display: block;
-   margin: 55px auto;
+   margin: 35px auto;
    font-family: Cursive;
    font-size: 55px;
    text-align: center;
@@ -117,7 +117,7 @@ h1.title-area {
    border-top: solid #eb4a9b 5px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 825px) {
    .nav li {
       width: 120px;
       border-bottom: none;
@@ -303,7 +303,7 @@ h1.title-area {
 @media screen and (max-width: 600px) {
 
    .about {
-      padding-top: 440px;
+      /*padding-top: 440px;*/
    }
 
    .vid {
@@ -336,7 +336,7 @@ h1.title-area {
 @media screen and (max-width: 736px) {
 
    .about {
-      padding-top: 440px;
+      /*padding-top: 440px;*/
    }
 
    .vid {

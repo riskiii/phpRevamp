@@ -88,12 +88,12 @@ div, textarea, input {
 }
 
 .container {
-   max-width: 510px;
-   min-width: 324px;
-   margin: 50px auto 0px;
-   background-color: #fff;
-   border: 1px solid #cfcfcf;
-   border-bottom: 3px solid #ccc;
+  max-width: 510px;
+  min-width: 324px;
+  margin: 50px auto 0px;
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+  border-bottom: 3px solid #ccc;
 }
 
 .row {
@@ -137,7 +137,7 @@ h3 {
   font-size: 1.0625em;
   display: inline-block;
   padding: 0.74em 1.5em;
-   margin: 1.5em 0 0;
+  margin: 1.5em 0 0;
   color: #fff;
   border-width: 0 0 0 0;
   border-bottom: 5px solid;
@@ -495,7 +495,7 @@ Site Navigation
 
 .nav-sidebar a:hover,
 .nav-sidebar a:focus {
-   color: #8f8f8f;
+  color: #8f8f8f;
 }
 
 select, input[type="color" i][list] {
