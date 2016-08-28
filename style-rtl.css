@@ -456,6 +456,7 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
 
 .nav-sidebar ul {
    margin-right: 0;
+   padding-right: 0;
 }
 
 .nav-sidebar li {
