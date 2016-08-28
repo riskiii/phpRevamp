@@ -253,9 +253,8 @@ form small {
     display: none;
   }
 }
-/*
-Structure and Layout
----------------------------------------------------------------------------------------------------- */
+
+.nav-sidebar
 .wrap {
   margin: 0 auto;
   padding: 0 5%;
@@ -263,11 +262,13 @@ Structure and Layout
   word-wrap: break-word;
 }
 @media screen and (min-width: 1023px) {
+   .nav-sidebar
   .wrap {
     max-width: 960px;
   }
 }
 @media screen and (min-width: 1180px) {
+   .nav-sidebar
   .wrap {
     max-width: 1140px;
     padding: 0;
@@ -450,6 +451,7 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
 
 .nav-sidebar {
   display: block;
+   margin-right: 0;
   position: relative;
   text-align: right;
 }
