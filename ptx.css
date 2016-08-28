@@ -99,7 +99,9 @@ h1.title-area {
 
 .nav a {
    font-family: Cursive;
-   font-size: 1em;
+   font-size: 22px;
+   letter-spacing: 1px;
+   padding: 15px 20px;
    text-decoration: none;
    color: white;
    display: block;
