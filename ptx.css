@@ -20,6 +20,10 @@ header {
    .header-container {
       height: 280px;
    }
+
+   .nav {
+      padding: 5px;
+   }
 }
 
 
