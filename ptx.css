@@ -95,7 +95,7 @@ h1.title-area {
 .nav li {
    list-style: none;
    margin-bottom: 10px;
-   padding: 5px;
+   /*padding: 5px;*/
 }
 
 .nav a {
