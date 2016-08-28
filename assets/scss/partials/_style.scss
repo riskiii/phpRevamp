@@ -53,13 +53,16 @@ div, textarea, input {
   @include box-sizing(border-box);
 }
 
+.margin-right {
+   margin-right: 50px;
+}
 .container {
   max-width: 510px;
   min-width: 324px;
-  margin: 50px auto 0px;
-  background-color: $white;
-  border: 1px solid lighten($grey, 1%);
-  border-bottom: 3px solid $grey;
+   //margin: 50px auto 0px;
+   //background-color: $white;
+   //border: 1px solid lighten($grey, 1%);
+   //border-bottom: 3px solid $grey;
 }
 
 .row {
