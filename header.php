@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <title><?php echo ucfirst( basename( $_SERVER['PHP_SELF'], ".php" ) . PHP_EOL ); ?></title>
-   <link rel="stylesheet" type="text/css" href="/ptx.css">
+   <!--   <link rel="stylesheet" type="text/css" href="/ptx.css">-->
    <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css">-->
    <link rel="stylesheet" type="text/css" href="/style.css">
    <script src="/audioplayerengine/jquery.js"></script>
