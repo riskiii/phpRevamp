@@ -3,10 +3,16 @@
 <head>
    <meta charset="UTF-8">
    <title><?php echo ucfirst( basename( $_SERVER['PHP_SELF'], ".php" ) . PHP_EOL ); ?></title>
-   <link rel="stylesheet" type="text/css" href="/ptx.css">
+<!--   <link rel="stylesheet" type="text/css" href="/assets/scss/partials/ptx.css">-->
    <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css">-->
+
+   <!-- Load jQuery and the necessary widget JS files to enable file upload -->
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
    <link rel="stylesheet" type="text/css" href="/style.css">
-   <script src="/audioplayerengine/jquery.js"></script>
+   <script src="/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="/bootstrap-3.3.7-dist/css/bootstrap.min.css.map">
+
+<!--   <script src="/audioplayerengine/jquery.js"></script>-->
    <script src="/audioplayerengine/amazingaudioplayer.js"></script>
    <link rel="stylesheet" type="text/css" href="/audioplayerengine/initaudioplayer-1.css">
    <script src="/audioplayerengine/initaudioplayer-1.js"></script>

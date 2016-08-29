@@ -12,9 +12,6 @@ if ( isset( $_POST['login'] ) ) {
 }
 ?>
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
-<!--   <!-- Bootstrap CSS Toolkit styles -->
-<link rel="stylesheet" href="/admin/css/bootstrap.min.css">
-<link rel="stylesheet" href="/admin/css/styles.css">
 
 <div class="bg">
 

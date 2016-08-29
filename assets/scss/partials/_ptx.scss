@@ -1,7 +1,4 @@
-<
-style >
 header {
-
    top: 32px;
    bottom: 25px;
 }
@@ -9,10 +6,10 @@ header {
 .header-container {
    //position: absolute;
    //top: 0;
-   background: url(images/z.jpg) no-repeat;
+   background: url(../../../images/z.jpg) no-repeat;
    background-size: 100%;
    width: 100%;
-/ / z-index: 2000;
+   // z-index: 2000;
    //right: 0;
 }
 
@@ -64,7 +61,7 @@ a {
 
 h1.title-area {
    display: block;
-   margin: 55px auto;
+   margin: 30px auto;
    font-family: Cursive;
    font-size: 55px;
    text-align: center;
@@ -368,7 +365,3 @@ h1.title-area {
    }
 
 }
-
-<
-/
-style >
