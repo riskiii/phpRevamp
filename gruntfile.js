@@ -88,8 +88,8 @@ module.exports = function(grunt) {
 		 	dist: {
 		 		options: {
 		 			style: 'expanded',
-		 			lineNumbers: false,
-		 			debugInfo: false,
+                    lineNumbers: true,
+                    debugInfo: true,
 		 			compass: false,
 		 			'sourcemap=none': true
 		 		},
@@ -238,6 +238,7 @@ module.exports = function(grunt) {
 		 */
 		watch: {
 			sass: {
+                options: {livereload: true},
 				files: [
 					'assets/scss/**/**/*.scss'
 				],

@@ -15,6 +15,7 @@
 </head>
 <body>
 
+<div class="site-container">
 <header class="site-header">
    <?php
       error_reporting(E_ALL);

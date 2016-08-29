@@ -2,7 +2,7 @@
 session_start();
 ob_start();
 // set a time limit in seconds
-$timelimit = 1800;
+$timelimit = 3600;
 // get the current time
 $now = time();
 // where to redirect if rejected
