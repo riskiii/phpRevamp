@@ -1,7 +1,10 @@
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
 <?php //require_once '/includes/session_timeout.php'; ?>
 <?php include 'includes/connection.php'; ?>
-
+<!--<script src="/audioplayerengine/jquery.js"></script>-->
+<script src="/audioplayerengine/amazingaudioplayer.js"></script>
+<link rel="stylesheet" type="text/css" href="/audioplayerengine/initaudioplayer-1.css">
+<script src="/audioplayerengine/initaudioplayer-1.js"></script>
 
    <!-- Page Heading -->
    <div class="row">
@@ -23,7 +26,7 @@
    <!-- Projects Row -->
    <div class="row">
       <div class="col-md-6 img-portfolio">
-         <div class="panel panel-default">
+         <div class="">
             <?php
             $sql  = "SELECT album_name, album_id, album_image 
                        FROM albums ORDER BY album_name";
@@ -32,33 +35,43 @@
             $stmt->bindParam( ':album_id', $album_id );
             $stmt->bindParam( ':album_image', $album_image );
             $stmt->execute(); ?>
-            <div class="panel-heading"><?php
+            <div class="panel-heading col-md-6"><?php
+               $count = 1;
                while ( $row = $stmt->fetch() ) { ?>
                   <img class="img-responsive img-hover"
                        src=<?php echo 'http://' . $_SERVER['SERVER_NAME'] . '/admin/files/' ."$row->album_image" ?> alt="">
 
                   <h3><?php echo "$row->album_name" ?></h3>
                   <div class="panel-body">
-                     <div class="col-xs-8 col-sm-6">
+                     <div class="">
                         <ul><?php
-                           $sql3  = "SELECT songs.song_id, songs.song_name,
-                                        songs.album_id
+                           //error_reporting(E_ALL);
+                           //ini_set('display_errors', 1);
+                           $sql3  = "SELECT songs.song_id, songs.song_name, songs.song_length, 
+                                            songs.song_mp3, songs.album_id
                               FROM  songs 
                               INNER JOIN albums ON songs.album_id = albums.album_id
                               WHERE songs.album_id = $row->album_id
                               ORDER BY songs.song_name";
                            $stmt3 = $db->prepare( $sql3 );
-                           $stmt3->bindParam( ':songs.song_name',     $song_name );
+                           $stmt3->bindParam( ':songs.song_name',      $song_name );
+                           $stmt3->bindParam( ':songs.song_length',    $song_length );
+                           $stmt3->bindParam( ':songs.song_mp3',       $song_mp3 );
                            $stmt3->bindParam( ':albums.album_release', $album_release );
-                           $stmt3->execute();
+                           $stmt3->execute();?>
+                           <ol>
+                           <?php
                            while ( $row3 = $stmt3->fetch() ) { ?>
                               <li>
-                                 <?php echo
-                                    '<span class="">' .$row3->song_name .'</span> ' .
-                                    '<span class="">' .$album_release .'</span> ';
-                                 ?>
+                                 <span class="song-name">  <?php echo $row3->song_name; ?> </span>
+                                 <audio id="player<?php echo $count; ?>" src="<?php echo 'http://' . $_SERVER['SERVER_NAME'] . '/admin/files/' . $row3->song_mp3; ?>"></audio>
+                                 <span class="my-buttons"><button onclick=document.getElementById("player<?php echo$count?>").play()>Play</button>
+                                                          <button onclick=document.getElementById("player<?php echo$count?>").pause()>Pause</button></span>
+                                 <span class="song-length">   Length: </span>  <?php echo $row3->song_length;  ?>
+                                 <?php $count++; ?>
                               </li>
                            <?php } ?>
+                           </ol>
                         </ul>
                      </div>
                   </div>

@@ -10,11 +10,8 @@
 
    <!--   <link rel="stylesheet" type="text/css" href="/ptx.css">-->
    <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css">-->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
    <link rel="stylesheet" type="text/css" href="/style.css">
-   <script src="/audioplayerengine/jquery.js"></script>
-   <script src="/audioplayerengine/amazingaudioplayer.js"></script>
-   <link rel="stylesheet" type="text/css" href="/audioplayerengine/initaudioplayer-1.css">
-   <script src="/audioplayerengine/initaudioplayer-1.js"></script>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>

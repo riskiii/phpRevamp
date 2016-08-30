@@ -21,7 +21,7 @@
       <ul class="amazingaudioplayer-audios" style="display:none;">
          <li data-artist="Pentatonix" data-title="Cheerleader" data-album="" data-info=""
              data-image="audios/Unknown-2.jpeg" data-duration="244">
-            <div class="amazingaudioplayer-source" data-src="audios/ptxcheer.mp3" data-type="audio/mpeg"/>
+            <div class="amazingaudioplayer-source" data-data-src="audios/ptxcheer.mp3" data-type="audio/mpeg"/>
          </li>
       </ul>
       <div class="amazingaudioplayer-engine"><a href="http://amazingaudioplayer.com" title="jquery audio player">jquery

@@ -5,7 +5,7 @@ if ( isset( $_POST['login'] ) ) {
    $username = trim( $_POST['username'] );
    $password = trim( $_POST['pwd'] );
    // location of usernames and passwords
-   $userlist = '/Users/riskiii/Sites/encrypted.csv';
+   $userlist = '/Users/dsmith/Sites/encrypted.csv';
    // location to redirect on success
    $redirect = 'admin/menu.php';
    require_once 'includes/authenticate.php';

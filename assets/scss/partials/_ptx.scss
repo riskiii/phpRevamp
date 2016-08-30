@@ -19,6 +19,28 @@ header {
    }
 }
 
+.img-portfolio {
+   float: left;
+   width: 50%;
+}
+
+.song-name {
+   display: inline-block;
+   text-align: left;
+   width: 225px;
+}
+
+.my-buttons {
+   display: inline-block;
+   text-align: left;
+   width: 110px;
+}
+
+.song-length {
+   display: inline-block;
+   text-align: left;
+   width: 60px;
+}
 
 .site-inner .bg {
    margin-bottom: 40px;
@@ -115,7 +137,6 @@ h1.title-area {
 
 @media screen and (min-width: 825px) {
    .nav li {
-      width: 120px;
       border-bottom: none;
       /*height: 50px;*/
       /*line-height: 50px;*/
