@@ -47,8 +47,10 @@
                // Add each uploaded file name to the #files list
                $.each(data.result.files, function (index, file) {
                   $('<li/>').text(file.name).appendTo('#files');
+
                   // https://github.com/js-cookie/js-cookie/tree/v2.1.2#readme
                   Cookies.set('dgs_cookie', decodeURIComponent(file.name), { expires: 7 });
+
                   $.post('index.php', 'val=' + $.text(file.name), function (response) {
                      alert(response);
                   });

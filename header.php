@@ -3,6 +3,11 @@
 <head>
    <meta charset="UTF-8">
    <title><?php echo ucfirst( basename( $_SERVER['PHP_SELF'], ".php" ) . PHP_EOL ); ?></title>
+
+   <!--   <!-- Bootstrap CSS Toolkit styles -->
+   <link rel="stylesheet" href="/admin/css/bootstrap.min.css">
+   <link rel="stylesheet" href="/admin/css/styles.css">
+
    <!--   <link rel="stylesheet" type="text/css" href="/ptx.css">-->
    <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css">-->
    <link rel="stylesheet" type="text/css" href="/style.css">
@@ -28,12 +33,12 @@
            style="display:block;position:relative;width:300px;height:auto;margin:0px auto 0px;">
          <ul class="amazingaudioplayer-audios" style="display:none;">
             <li data-artist="Pentatonix" data-title="Cheerleader" data-album="" data-info=""
-                data-image="audios/Unknown-2.jpeg" data-duration="244">
+                data-image="audios/Unknown-2.jpeg" data-duration="244"></li>
                <div class="amazingaudioplayer-source" data-src="/audios/ptxcheer.mp3" data-type="audio/mpeg"></div>
-
          </ul>
          <div class="amazingaudioplayer-engine"><a href="http://amazingaudioplayer.com" title="jquery audio player">jquery
-               mp3 player</a></div>
+               mp3 player</a>
+         </div>
       </div>
 
       <h1 class="title-area"><span class="pe">PE</span><span class="nt">NT</span><span class="at">AT</span><span
