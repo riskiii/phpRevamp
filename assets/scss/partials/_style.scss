@@ -78,20 +78,24 @@ div, textarea, input {
 .row {
    width: 100%;
    margin: 0 0 1em 0;
-   padding: 0 2.5em;
+   //padding: 0 30px;
    &.header {
-      padding: 1.5em 2.5em;
+      //padding: 1.5em 2.5em;
       border-bottom: 1px solid $grey;
-      background: url(http://niiiick.com/files/blur-city-1.jpg) left -80px;
+      background: url(../../images/kip.gif) left 0;
       color: $white;
    }
    &.body {
-      padding: .5em 2.5em 1em;
+      padding: 30px;
    }
 }
 
 .pull-right {
    float: right;
+}
+
+input, textarea, .uneditable-input {
+   width: 190px;
 }
 
 h1 {
@@ -102,6 +106,19 @@ h1 {
    border-bottom: 1px solid hsla(100%, 100%, 100%, 0.3);
    margin: 0 0 0.1em 0;
    padding: 0 0 0.4em 0;
+}
+
+h2.cuh2 {
+   color: #eb4a9b;
+   padding-top: 20px;
+   padding-bottom: 80px;
+   font-size: 45px;
+}
+
+
+
+.header h3 {
+   font-size: 20px;
 }
 
 h3 {

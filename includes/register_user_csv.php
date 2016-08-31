@@ -1,7 +1,8 @@
 <?php
+require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/session_timeout.php';
 use PhpSolutions\Authenticate\CheckPassword;
 
-require_once  __DIR__ . '/../PhpSolutions/Authenticate/CheckPassword.php';
+require_once  $_SERVER['DOCUMENT_ROOT'] . '/PhpSolutions/Authenticate/CheckPassword.php';
 $usernameMinChars = 3;
 $errors           = [ ];
 if ( strlen( $username ) < $usernameMinChars ) {

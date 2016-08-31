@@ -4,13 +4,11 @@
    <meta charset="UTF-8">
    <title><?php echo ucfirst( basename( $_SERVER['PHP_SELF'], ".php" ) . PHP_EOL ); ?></title>
 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
    <!--   <!-- Bootstrap CSS Toolkit styles -->
    <link rel="stylesheet" href="/admin/css/bootstrap.min.css">
    <link rel="stylesheet" href="/admin/css/styles.css">
 
-   <!--   <link rel="stylesheet" type="text/css" href="/ptx.css">-->
-   <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css">-->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
    <link rel="stylesheet" type="text/css" href="/style.css">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -47,7 +45,7 @@
          <ul>
             <li><a href="/index.php">Home</a></li>
             <li><a href="/bio.php">Bio</a></li>
-            <li><a href="/alb.php">Albums</a></li>
+            <li><a href="/discography.php">Albums</a></li>
             <li><a href="/video.php">Video</a></li>
             <li><a href="/ct.php">Contact</a></li>
             <li><a href="/login.php">Login</a></li>

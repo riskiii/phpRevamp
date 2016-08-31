@@ -1,11 +1,10 @@
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
-<?php //require_once '/includes/session_timeout.php'; ?>
 <?php include 'includes/connection.php'; ?>
-<!--<script src="/audioplayerengine/jquery.js"></script>-->
 <script src="/audioplayerengine/amazingaudioplayer.js"></script>
 <link rel="stylesheet" type="text/css" href="/audioplayerengine/initaudioplayer-1.css">
 <script src="/audioplayerengine/initaudioplayer-1.js"></script>
 
+<div class="pad-thirty">
    <!-- Page Heading -->
    <div class="row">
       <div class="col-lg-12">
@@ -86,5 +85,6 @@
 
 <?php include 'includes/logout.php'; ?>
 </div> <!-- .two-third -->
+</div>
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
 

@@ -5,47 +5,39 @@ if ( isset( $_POST['login'] ) ) {
    $username = trim( $_POST['username'] );
    $password = trim( $_POST['pwd'] );
    // location of usernames and passwords
-   $userlist = '/Users/dsmith/Sites/encrypted.csv';
+   $userlist = '/Users/riskiii/Sites/encrypted.csv';
    // location to redirect on success
    $redirect = 'admin/menu.php';
    require_once 'includes/authenticate.php';
 }
 ?>
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
-<!--   <!-- Bootstrap CSS Toolkit styles -->
-<link rel="stylesheet" href="/admin/css/bootstrap.min.css">
-<link rel="stylesheet" href="/admin/css/styles.css">
 
-<div class="bg">
+<div class="about">
 
-   <div class="about">
+   <h2> Login </h2>
 
-      <h2> Login </h2>
+   <?php
+   if ( $error ) {
+      echo "<p>$error</p>";
+   } elseif ( isset( $_GET['expired'] ) ) { ?>
+      <p>Your session has expired. Please log in again.</p>
+   <?php } ?>
+   <form method="post" action="">
+      <p>
+         <label for="username">Username:</label>
+         <input type="text" name="username" id="username">
+      </p>
+      <p>
+         <label for="pwd">Password:</label>
+         <input type="password" name="pwd" id="pwd">
+      </p>
+      <p>
+         <input name="login" type="submit" value="Log in">
+      </p>
+   </form>
 
-<?php
-if ( $error ) {
-   echo "<p>$error</p>";
-} elseif ( isset( $_GET['expired'] ) ) { ?>
-   <p>Your session has expired. Please log in again.</p>
-<?php } ?>
-<form method="post" action="">
-   <p>
-      <label for="username">Username:</label>
-      <input type="text" name="username" id="username">
-   </p>
-   <p>
-      <label for="pwd">Password:</label>
-      <input type="password" name="pwd" id="pwd">
-   </p>
-   <p>
-      <input name="login" type="submit" value="Log in">
-   </p>
-</form>
-
-</div>
 </div>
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
-</body>
-</html>
 
 

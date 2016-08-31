@@ -99,9 +99,11 @@ div, textarea, input {
     padding: 1.5em 2.5em;
     border-bottom: 1px solid #ccc;
     background: url(http://niiiick.com/files/blur-city-1.jpg) left -80px;
-    color: #fff; }
+    color: #fff;
+    margin: 0;
+  }
   .row.body {
-    padding: .5em 2.5em 1em; }
+    padding: 30px; }
 
 .pull-right {
   float: right; }
