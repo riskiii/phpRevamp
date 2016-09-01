@@ -9,7 +9,7 @@ $q->bindParam( ':artist_name', $artist_name );
 $q->execute();
 ?>
    <div class="one-third">
-      <?php include '../includes/menu.php';
+      <?php include 'includes/menu.php';
       global $album_name; ?>
    </div>
    <div class="two-thirds last">

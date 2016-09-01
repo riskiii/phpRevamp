@@ -37,6 +37,10 @@ header {
    }
 }
 
+.two-thirds h2 {
+   margin-top: 0;
+}
+
 .img-portfolio {
    float: left;
    width: 50%;
@@ -93,6 +97,10 @@ h1 {
 a {
    text-decoration: underline;
    color: #fff;
+}
+
+a.more {
+   color: #21aeee;
 }
 
 h1.title-area {
@@ -393,4 +401,42 @@ h1.title-area {
    background-color: #fff;
    border: 5px solid #6a6869;
    border-bottom: 3px solid #6a6869;
+}
+
+/* The figure is for the random image on the front page. It floats to the right with a 20px right margin and a 10px left one. */
+
+figure {
+   float: right;
+   margin: 0 20px 0 10px;
+}
+
+/* Border and background color for the random image. */
+
+figure img {
+   padding: 10px;
+   -webkit-box-shadow: 1px 1px 15px #999999;
+   box-shadow: 1px 1px 15px #999999;
+}
+
+/* The caption on the front page is bold and centered. */
+
+figcaption {
+   margin: 0;
+   padding: 3px 10px;
+   font-weight: bold;
+   text-align: center;
+}
+
+main {
+   padding: 30px;
+}
+main h1 {
+   margin-bottom: 50px;
+}
+main h2 {
+   margin-top: 0;
+}
+
+main p {
+   margin-bottom: 50px;
 }

@@ -48,6 +48,7 @@
             <li><a href="/discography.php">Albums</a></li>
             <li><a href="/video.php">Video</a></li>
             <li><a href="/ct.php">Contact</a></li>
+            <li><a href="/blog_pdo.php">Blog</a></li>
             <li><a href="/login.php">Login</a></li>
          </ul>
       </div>
