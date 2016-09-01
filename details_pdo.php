@@ -1,6 +1,6 @@
 <?php
 require_once 'admin/includes/utility_funcs.php';
-require_once 'includes/connection-blog.php';
+require_once 'admin/includes/connection-blog.php';
 
 // connect to the database
 $conn = dbConnect( 'read', 'pdo' );
@@ -22,8 +22,10 @@ $row = $result->fetch( PDO::FETCH_ASSOC );
 
 ?>
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
+<main>
    <h1>Japan Journey </h1>
-<!--   <div class="one-third">-->
+
+   <!--   <div class="one-third">-->
 <!--      --><?php //include '../includes/menu.php';
 //      global $album_name; ?>
 <!--   </div>-->
@@ -65,4 +67,5 @@ $row = $result->fetch( PDO::FETCH_ASSOC );
             echo 'blog_pdo.php';
          } ?>">Back to the blog</a></p>
 <!--   </div> <!-- .two-third -->
+</main>
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
