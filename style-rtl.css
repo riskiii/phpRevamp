@@ -822,6 +822,43 @@ main p {
   margin-bottom: 50px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003444}}
+form {
+  margin-right: 25px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003447}}
+label {
+  font-weight: bold;
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003451}}
+.warning {
+  color: #f00;
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003455}}
+form input[type="text"], form textarea {
+  width: 90%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003458}}
+textarea {
+  height: 200px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003461}}
+td {
+  padding: 2px 10px 2px 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003464}}
+.two-thirds p {
+  margin-left: 30px;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\000031}}
 .nav-sidebar
 .wrap {

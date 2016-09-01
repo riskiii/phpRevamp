@@ -1,5 +1,5 @@
 <?php
-// run this script only if the logout button has been clicked
+ //run this script only if the logout button has been clicked
 if ( isset( $_POST['logout'] ) ) {
    // empty the $_SESSION array
    $_SESSION = [ ];

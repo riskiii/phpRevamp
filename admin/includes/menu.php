@@ -6,5 +6,6 @@
       <li><a href="/admin/register.php">Register</a></li>
       <li><a href="/admin/blog_list_pdo.php">Blog List/Delete/Update</a></li>
       <li><a href="/admin/blog_insert_pdo.php">Blog Insert</a></li>
+      <li><a href="../../includes/logout.php">Logout</a></li>
    </ul>
 </nav>

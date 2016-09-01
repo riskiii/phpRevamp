@@ -9,6 +9,9 @@
    <link rel="stylesheet" href="/admin/css/bootstrap.min.css">
    <link rel="stylesheet" href="/admin/css/styles.css">
 
+   <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+   <script>tinymce.init({ selector:'textarea' });</script>
+
    <link rel="stylesheet" type="text/css" href="/style.css">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

@@ -14,7 +14,7 @@ if ( isset( $_POST['register'] ) ) {
 }
 ?>
 <div class="one-third">
-   <?php include '../includes/menu.php'; ?>
+   <?php include 'includes/menu.php'; ?>
 </div>
 
 <div class="two-thirds last">
