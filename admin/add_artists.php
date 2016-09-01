@@ -2,8 +2,8 @@
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
 <?php include '../includes/connection.php'; ?>
 <!--   <!-- Bootstrap CSS Toolkit styles -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/styles.css"><?php
+<!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+<!--<link rel="stylesheet" href="css/styles.css">--><?php
 // Only process the form if $_POST isn't empty
 if ( ! empty( $_POST ) ) {
    $stmt = $db->prepare( "INSERT INTO artists (artist_name) VALUE (:artist_name)" );

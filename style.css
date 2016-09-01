@@ -64,19 +64,19 @@
 	- Print Media Query
 */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_box-sizing\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_box-sizing\.scss}line{font-family:\000034}}
 html {
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_box-sizing\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_box-sizing\.scss}line{font-family:\000039}}
 *, *::after, *::before {
   box-sizing: inherit;
 }
 
 /* Resets
 ---------------------------------------------------------------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000346}}
 body {
   background-color: #e6e6e6;
   font-size: 100%;
@@ -84,62 +84,62 @@ body {
   font-weight: 400;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000352}}
 div, textarea, input {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000356}}
 .margin-right {
   margin-right: 70px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000360}}
 .progress-text {
   margin-bottom: 30px !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000364}}
 .top-spacing {
   margin-top: 35px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000368}}
 .container {
   max-width: 510px;
   min-width: 324px;
   margin-left: 0 !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000378}}
 .row {
   width: 100%;
   margin: 0 0 1em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000382}}
 .row.header {
   border-bottom: 1px solid #ccc;
   background: url(../../images/kip.gif) left 0;
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000388}}
 .row.body {
   padding: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000393}}
 .pull-right {
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000397}}
 input, textarea, .uneditable-input {
   width: 190px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003101}}
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -151,7 +151,7 @@ h1 {
   padding: 0 0 0.4em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003111}}
 h2.cuh2 {
   color: #eb4a9b;
   padding-top: 20px;
@@ -159,12 +159,12 @@ h2.cuh2 {
   font-size: 45px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003120}}
 .header h3 {
   font-size: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003124}}
 h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -172,7 +172,7 @@ h3 {
   margin: 1em 0 0.4em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003130}}
 .btn {
   font-size: 1.0625em;
   display: inline-block;
@@ -187,53 +187,53 @@ h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000333}}
 .btn:hover {
   background-color: #bfbfbf;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003141}}
 .btn.btn-submit {
   background-color: #4f6fad;
   border-bottom-color: #374d78;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\0000333}}
 .btn.btn-submit:hover {
   background-color: #5f7db6;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003146}}
 form {
   max-width: 100%;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003149}}
 form ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003153}}
 form ul li {
   margin: 0 0 0.25em 0;
   clear: both;
   display: inline-block;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003158}}
 form ul li:last-child {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003161}}
 form ul li p {
   margin: 0;
   padding: 0;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003165}}
 form ul li p.right {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003169}}
 form ul li .divider {
   margin: 0.5em 0 0.5em 0;
   border: 0;
@@ -243,18 +243,18 @@ form ul li .divider {
   background-color: #4f6fad;
   background-image: linear-gradient(to right, #ee9cb4, #4f6fad);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003178}}
 form ul li .req {
   color: #ee9cb4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003183}}
 form label {
   display: block;
   margin: 0 0 0.5em 0;
   color: #4f6fad;
   font-size: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003189}}
 form input {
   margin: 0 0 0.5em 0;
   border: 1px solid #ccc;
@@ -262,31 +262,31 @@ form input {
   color: #555;
   font-size: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003196}}
 form textarea {
   border: 1px solid #ccc;
   padding: 6px 10px;
   width: 100%;
   color: #555;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003202}}
 form small {
   color: #4f6fad;
   margin: 0 0 0 0.5em;
 }
 
 @media only screen and (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003211}}
   .pull-right {
     float: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003214}}
   input {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003217}}
   label {
     width: 100%;
     display: inline-block;
@@ -294,46 +294,46 @@ form small {
     clear: both;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003223}}
   li, p {
     width: 100%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003226}}
   input.btn {
     margin: 1.5em 0 0.5em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003229}}
   h1 {
     font-size: 2.25em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003232}}
   h3 {
     font-size: 1.125em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_style\.scss}line{font-family:\00003235}}
   li small {
     display: none;
   }
 }
 /* Resets
 ---------------------------------------------------------------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\000031}}
 header {
   top: 32px;
   bottom: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\000036}}
 .contact-label {
   font-family: Lato, sans-serif;
   font-size: 16px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000311}}
 .form-group .btn.btn-submit {
   color: white;
   display: inline-block;
@@ -347,7 +347,7 @@ header {
   background: #21aeee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000324}}
 .header-container {
   background: url(images/z.jpg) no-repeat;
   background-size: 100%;
@@ -355,97 +355,97 @@ header {
 }
 
 @media screen and (min-width: 825px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000331}}
   .header-container {
     height: 280px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000335}}
   .nav {
     padding: 5px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000340}}
 .two-thirds h2 {
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000344}}
 .img-portfolio {
   float: left;
   width: 50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000349}}
 .song-name {
   display: inline-block;
   text-align: left;
   width: 225px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000355}}
 .my-buttons {
   display: inline-block;
   text-align: left;
   width: 110px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000361}}
 .song-length {
   display: inline-block;
   text-align: left;
   width: 60px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000367}}
 .site-inner .bg {
   margin-bottom: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000371}}
 h1 {
   font-size: 55px;
   text-align: center;
   font-family: Cursive;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000377}}
 .pe {
   color: #6a6869;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000381}}
 .nt {
   color: #eb4a9b;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000385}}
 .at {
   color: #21aeee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000389}}
 .on {
   color: #0f9f24;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000393}}
 .ix {
   color: #fed875;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\0000397}}
 a {
   text-decoration: underline;
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003102}}
 a.more {
   color: #21aeee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003106}}
 h1.title-area {
   display: block;
   margin: 55px auto;
@@ -454,34 +454,34 @@ h1.title-area {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003114}}
 .header-container .nav-header {
   margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003117}}
 .two-thirds h1 {
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003120}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003120}}
 .about h2 {
   font-size: 48px;
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003125}}
 .pad-thirty {
   padding: 0 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003129}}
 .nav {
   margin-top: 25px;
   padding: 0 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003134}}
 .nav ul {
   list-style: none;
   text-align: center;
@@ -489,14 +489,14 @@ h1.title-area {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003141}}
 .nav li {
   list-style: none;
   margin-bottom: 10px;
   /*padding: 5px;*/
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003147}}
 .nav a {
   color: white;
   display: inline-block;
@@ -512,7 +512,7 @@ h1.title-area {
   background-color: #21aeee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003162}}
 .nav a:hover {
   color: white;
   background-color: #eb4a9b;
@@ -521,7 +521,7 @@ h1.title-area {
 }
 
 @media screen and (min-width: 825px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003170}}
   .nav li {
     border-bottom: none;
     /*height: 50px;*/
@@ -529,18 +529,18 @@ h1.title-area {
     font-size: 1.4em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003177}}
   .nav li {
     display: inline-block;
     /*margin-right: 10px;*/
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003183}}
 .body {
   padding: 220px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003188}}
 .about {
   font-family: Cursive;
   text-align: center;
@@ -549,7 +549,7 @@ h1.title-area {
   font-size: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003197}}
 .p1 {
   font-family: none;
   font-size: .7em;
@@ -559,7 +559,7 @@ h1.title-area {
   margin-left: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003207}}
 .b1 {
   font-family: Cursive;
   font-size: 1em;
@@ -569,7 +569,7 @@ h1.title-area {
   margin-left: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003217}}
 .b2 {
   font-family: Cursive;
   font-size: 1em;
@@ -579,7 +579,7 @@ h1.title-area {
   margin-left: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003227}}
 .b3 {
   font-family: Cursive;
   font-size: 1em;
@@ -589,7 +589,7 @@ h1.title-area {
   margin-left: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003237}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003237}}
 .b4 {
   font-family: Cursive;
   font-size: 1em;
@@ -599,7 +599,7 @@ h1.title-area {
   margin-left: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003247}}
 .b5 {
   font-family: Cursive;
   font-size: 1em;
@@ -609,7 +609,7 @@ h1.title-area {
   margin-left: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003257}}
 .biom {
   font-family: none;
   font-size: .6em;
@@ -619,7 +619,7 @@ h1.title-area {
   margin-left: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003266}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003266}}
 .fv {
   font-family: Cursive;
   text-align: center;
@@ -628,42 +628,42 @@ h1.title-area {
   font-size: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003274}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003274}}
 .vidw {
   text-align: center;
   margin: 0px auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003279}}
 .vid {
   display: block;
   margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003284}}
 .onealb {
   float: left;
   margin-left: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003289}}
 .alb1a {
   margin-bottom: 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003293}}
 .twoalb {
   float: right;
   margin-right: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003298}}
 .albpic {
   text-align: right;
   margin-right: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003303}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003303}}
 .threealb {
   float: left;
   margin-left: 5px;
@@ -671,14 +671,14 @@ h1.title-area {
   margin-bottom: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003310}}
 .fouralb {
   float: right;
   margin-right: 5px;
   margin-bottom: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003316}}
 .contactpage {
   padding-top: 230px;
   color: #b2bb1c;
@@ -686,32 +686,32 @@ h1.title-area {
   font-size: 2em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003324}}
 .cmform {
   padding-left: 350px;
   padding-top: 100px;
   color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003330}}
 .ulili {
   list-style: none;
 }
 
 @media screen and (max-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003336}}
   .about {
     /*padding-top: 440px;*/
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003340}}
   .vid {
     display: block;
     margin: 0 auto;
     width: 460px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003346}}
   .twoalb {
     float: left;
     margin-left: 5px;
@@ -719,7 +719,7 @@ h1.title-area {
     margin-bottom: 25px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003353}}
   .fouralb {
     float: left;
     margin-left: 5px;
@@ -727,26 +727,26 @@ h1.title-area {
     margin-bottom: 25px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003360}}
   .albpic {
     text-align: left;
     margin-right: 15px;
   }
 }
 @media screen and (max-width: 736px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003367}}
   .about {
     /*padding-top: 440px;*/
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003371}}
   .vid {
     display: block;
     margin: 0 auto;
     width: 400px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003377}}
   .twoalb {
     float: left;
     margin-left: 5px;
@@ -754,7 +754,7 @@ h1.title-area {
     margin-bottom: 25px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003384}}
   .fouralb {
     float: left;
     margin-left: 5px;
@@ -762,13 +762,13 @@ h1.title-area {
     margin-bottom: 25px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003391}}
   .albpic {
     text-align: left;
     margin-right: 15px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003397}}
 .contact-container {
   max-width: 510px;
   min-width: 324px;
@@ -779,14 +779,14 @@ h1.title-area {
 }
 
 /* The figure is for the random image on the front page. It floats to the right with a 20px right margin and a 10px left one. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003408}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003408}}
 figure {
   float: right;
   margin: 0 20px 0 10px;
 }
 
 /* Border and background color for the random image. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003415}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003415}}
 figure img {
   padding: 10px;
   -webkit-box-shadow: 1px 1px 15px #999999;
@@ -794,7 +794,7 @@ figure img {
 }
 
 /* The caption on the front page is bold and centered. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003423}}
 figcaption {
   margin: 0;
   padding: 3px 10px;
@@ -802,64 +802,64 @@ figcaption {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003430}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003430}}
 main {
   padding: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003433}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003433}}
 main h1 {
   margin-bottom: 50px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003436}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003436}}
 main h2 {
   margin-top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003440}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003440}}
 main p {
   margin-bottom: 50px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003444}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003444}}
 form {
   margin-left: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003447}}
 label {
   font-weight: bold;
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003451}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003451}}
 .warning {
   color: #f00;
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003455}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003455}}
 form input[type="text"], form textarea {
   width: 90%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003458}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003458}}
 textarea {
   height: 200px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003461}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003461}}
 td {
   padding: 2px 5px 2px 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003464}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_ptx\.scss}line{font-family:\00003464}}
 .two-thirds p {
   margin-right: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\000031}}
 .nav-sidebar
 .wrap {
   margin: 0 auto;
@@ -868,14 +868,14 @@ td {
   word-wrap: break-word;
 }
 @media screen and (min-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\000031}}
   .nav-sidebar
   .wrap {
     max-width: 960px;
   }
 }
 @media screen and (min-width: 1180px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\000031}}
   .nav-sidebar
   .wrap {
     max-width: 1140px;
@@ -883,13 +883,13 @@ td {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000324}}
 .site-inner {
   background: whitesmoke;
   padding-top: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000329}}
 .site-container {
   margin: 40px auto;
   max-width: 1140px;
@@ -898,7 +898,7 @@ td {
 /* Content & Primary Sidebar
 --------------------------------------------- */
 @media screen and (min-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000340}}
   .content {
     float: right;
     display: block;
@@ -906,19 +906,19 @@ td {
     width: 65.88078%;
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
   .content:last-child {
     margin-left: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000345}}
   .sidebar-primary {
     float: right;
     display: block;
     margin-left: 2.35765%;
     width: 31.76157%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
   .sidebar-primary:last-child {
     margin-left: 0;
   }
@@ -926,25 +926,25 @@ td {
 /*
 Sidebar
 ---------------------------------------------------------------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000355}}
 .sidebar {
   font-size: 16px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000359}}
 .sidebar p:last-child,
 .sidebar ul > li:last-child {
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000364}}
 .sidebar li {
   list-style-type: none;
   margin-bottom: 6px;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000370}}
 .sidebar .widget {
   background: #fff;
   border-top: 1px solid #1c1c1c;
@@ -952,20 +952,20 @@ Sidebar
   padding: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000377}}
 .sidebar .widget-wrap {
   border-top: 5px solid #1c1c1c;
   margin-left: 4px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000382}}
 .sidebar .search-form input[type="search"] {
   width: 100%;
 }
 
 /* Column Widths and Positions
 --------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000391}}
 .full-width-content .content {
   float: none;
   margin: 0 auto;
@@ -973,7 +973,7 @@ Sidebar
 }
 
 @media screen and (min-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\0000399}}
   .content-sidebar .content,
   .sidebar-content .sidebar-primary {
     float: left;
@@ -983,7 +983,7 @@ Sidebar
 Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
 --------------------------------------------- */
 @media screen and (min-width: 810px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003111}}
   .one-half,
   .three-sixths,
   .two-fourths {
@@ -992,14 +992,14 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
     margin-right: 2.35765%;
     width: 48.82117%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
   .one-half:last-child,
   .three-sixths:last-child,
   .two-fourths:last-child {
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003117}}
   .one-third,
   .two-sixths {
     float: left;
@@ -1007,13 +1007,13 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
     margin-right: 2.35765%;
     width: 31.76157%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
   .one-third:last-child,
   .two-sixths:last-child {
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003122}}
   .four-sixths,
   .two-thirds {
     float: left;
@@ -1021,66 +1021,66 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
     margin-right: 2.35765%;
     width: 65.88078%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
   .four-sixths:last-child,
   .two-thirds:last-child {
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003127}}
   .one-fourth {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
   .one-fourth:last-child {
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003131}}
   .three-fourths {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 74.41059%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
   .three-fourths:last-child {
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003135}}
   .one-sixth {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 14.70196%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
   .one-sixth:last-child {
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003139}}
   .five-sixths {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 82.94039%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/vendor\/neat\/grid\/_span-columns\.scss}line{font-family:\0000389}}
   .five-sixths:last-child {
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003143}}
   .last {
     margin-right: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_layout\.scss}line{font-family:\00003147}}
   .last + * {
     clear: both;
   }
@@ -1088,17 +1088,17 @@ Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
 /*
 Site Navigation
 ---------------------------------------------------------------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\000035}}
 .genesis-nav-menu > .first > a {
   padding-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\000039}}
 .genesis-nav-menu > .last > a {
   padding-right: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000313}}
 .nav-sidebar {
   display: block;
   position: relative;
@@ -1106,19 +1106,19 @@ Site Navigation
   padding: 3px 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000320}}
 .nav-sidebar ul {
   margin-left: 0;
   padding-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000325}}
 .nav-sidebar li {
   list-style: none;
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000331}}
 .nav-sidebar a {
   color: #fff;
   display: inline-block;
@@ -1134,13 +1134,13 @@ Site Navigation
   background-color: #21aeee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000346}}
 .bar {
   height: 18px;
   background: green;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000351}}
 .nav-sidebar a:hover,
 .nav-sidebar a:focus {
   color: white;
@@ -1149,7 +1149,7 @@ Site Navigation
   border-top: solid #eb4a9b 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000359}}
 select, input[type="color" i][list] {
   background-color: #f8f8f8;
   border-image-source: initial;
@@ -1162,7 +1162,7 @@ select, input[type="color" i][list] {
   border-color: #a6a6a6;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000371}}
 option {
   font-weight: normal;
   display: block;
@@ -1171,29 +1171,29 @@ option {
   padding: 2px 4px 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000379}}
 .genesis-nav-menu .sub-menu a:hover,
 .genesis-nav-menu .sub-menu a:focus {
   outline: #a1a1a1 dotted thin;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000384}}
 .genesis-nav-menu .sub-menu .current-menu-item > a {
   color: #8f8f8f;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000388}}
 .genesis-nav-menu > .menu-item > a {
   text-transform: uppercase;
 }
 @media screen and (min-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000388}}
   .genesis-nav-menu > .menu-item > a {
     border-bottom: 0;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000396}}
 .genesis-nav-menu .sub-menu {
   background-color: #121212;
   clear: both;
@@ -1202,7 +1202,7 @@ option {
   position: static;
 }
 @media screen and (min-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\0000396}}
   .genesis-nav-menu .sub-menu {
     display: block;
     left: -9999px;
@@ -1219,37 +1219,37 @@ option {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003119}}
 .genesis-nav-menu .menu-item:hover > .sub-menu,
 .genesis-nav-menu .menu-item-hover:hover > .sub-menu {
   left: auto;
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003125}}
 .genesis-nav-menu .sub-menu a {
   border: 0;
 }
 @media screen and (min-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003125}}
   .genesis-nav-menu .sub-menu a {
     letter-spacing: 0;
     width: 200px;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003134}}
 .genesis-nav-menu .sub-menu .sub-menu a {
   padding-left: 20px;
 }
 
 @media screen and (min-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003140}}
   .genesis-nav-menu .sub-menu .sub-menu {
     margin: -54px 0 0 199px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003144}}
   .genesis-nav-menu .menu-item-hover,
   .genesis-nav-menu .menu-item:hover {
     position: static;
@@ -1257,21 +1257,21 @@ option {
 }
 /* Mobile Menu Toggle
 --------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003154}}
 .nav-primary,
 .nav-footer {
   display: none;
   position: relative;
 }
 @media screen and (min-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003154}}
   .nav-primary,
   .nav-footer {
     display: inline-block;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003164}}
 .menu-toggle,
 .footer-menu-toggle {
   background-color: transparent;
@@ -1287,7 +1287,7 @@ option {
   visibility: visible;
 }
 @media screen and (min-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003164}}
   .menu-toggle,
   .footer-menu-toggle {
     display: block;
@@ -1295,7 +1295,7 @@ option {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003184}}
 .sub-menu-toggle {
   background-color: transparent;
   border: 0;
@@ -1308,14 +1308,14 @@ option {
   visibility: visible;
 }
 @media screen and (min-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003184}}
   .sub-menu-toggle {
     display: none;
     visibility: hidden;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003201}}
 .menu-toggle:before,
 .footer-menu-toggle:before {
   content: "\2261";
@@ -1323,24 +1323,24 @@ option {
   padding-right: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003208}}
 .menu-toggle.menu-toggle-activated:before,
 .footer-menu-toggle.menu-toggle-activated:before {
   content: "x";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003213}}
 .sub-menu-toggle:before {
   content: "+";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003217}}
 .sub-menu-toggle.menu-toggle-activated:before {
   content: "-";
 }
 
 @media screen and (min-width: 1023px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003223}}
   button.menu-toggle,
   button.sub-menu-toggle,
   button.footer-menu-toggle {
@@ -1349,19 +1349,19 @@ option {
 }
 /* Site Header Navigation
 --------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003234}}
 .site-header .sub-menu {
   border-top: 1px solid #ebebeb;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003238}}
 .site-header .sub-menu .sub-menu {
   margin-top: -53px;
 }
 
 /* Primary & Footer Navigation
 --------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003245}}
 .nav-primary,
 .nav-footer {
   background-color: #121212;
@@ -1369,7 +1369,7 @@ option {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003252}}
 .nav-primary a:hover,
 .nav-primary .current-menu-item > a,
 .nav-footer a:hover,
@@ -1377,19 +1377,19 @@ option {
   color: #8f8f8f;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003259}}
 .nav-primary .sub-menu a:hover {
   color: #8f8f8f;
 }
 
 /* Dropdown Menu
 --------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003266}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003266}}
 .menu .menu-item:focus {
   position: static;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/riskiii\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003270}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/dsmith\/Sites\/phprevamp\.dev\/assets\/scss\/partials\/_navigation\.scss}line{font-family:\00003270}}
 .menu .menu-item > a:focus + ul.sub-menu,
 .menu .menu-item.wpacc-hover > ul.sub-menu {
   left: auto;
