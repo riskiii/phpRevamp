@@ -18,7 +18,6 @@
       <ul id="files"></ul>
    </span>
 
-
    <div id="progress" class="progress progress-info progress-striped">
       <div class="bar"></div>
    </div>

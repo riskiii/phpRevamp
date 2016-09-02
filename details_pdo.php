@@ -42,7 +42,7 @@ $row = $result->fetch( PDO::FETCH_ASSOC );
          } ?></p>
       <?php
       if ( $row && ! empty( $row['filename'] ) ) {
-         $filename  = "admin/images/{$row['filename']}";
+         $filename  = "admin/files/" . "{$row['filename']}";
          $imageSize = getimagesize( $filename )[3];
          ?>
          <figure>

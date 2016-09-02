@@ -1294,7 +1294,5 @@
             }
             return this._getXHRPromise(false, data && data.context);
         }
-
     });
-
 }));
